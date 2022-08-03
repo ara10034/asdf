@@ -1,12 +1,12 @@
 import React from 'react';
-import {Button, Image, Divider, Header, Icon} from 'semantic-ui-react'
+import {Image, Divider, Header, Icon} from 'semantic-ui-react'
 import Comments from './comment.js'
 import Karina from "./Karina.jpg"
 
 function App() {
   return (
     <div>
-    <Image src = {Karina} size = 'medium' centered/ >
+    <Image src = {Karina} centered / >
     <Divider horizontal>
       <Header as='h4'>
         <Icon name='comment alternate' / >
